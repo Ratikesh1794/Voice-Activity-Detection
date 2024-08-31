@@ -48,6 +48,9 @@ pip install matplotlib
 pip install pydub
 ```
 
+Also install ffmpeg based on OS
+Link : https://ffmpeg.org/download.html#build-windows
+
 **c. Run the Flask Server**
 
 ```bash
