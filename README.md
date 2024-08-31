@@ -44,7 +44,7 @@ pip install -r backend/requirements.txt
 
 ```bash
 cd backend
-flask run
+python app.py
 ```
 
 3. **Frontend Setup**
@@ -84,7 +84,6 @@ npm start
 vad-interface/
 ├── backend/
 │   ├── app.py (Flask application)
-│   ├── vad.py (Voice activity detection logic)
 │   ├── uploads/ (Folder to store uploaded MP3 files)
 │   └── requirements.txt (Backend dependencies)
 ├── frontend/
@@ -95,7 +94,7 @@ vad-interface/
 │   │   │   ├── FileUpload.js (File upload component)
 │   │   │   ├── Header.js (Header component)
 │   │   │   ├── Footer.js (Footer component)
-│   │   │   └── VadResults.js (Component to display VAD results)
+│   │   │   └── VadGraph.js (Component to display VAD results)
 │   │   ├── App.js (Main React application component)
 │   │   ├── index.js (Entry point for the React application)
 │   ├── package.json (Frontend dependencies and scripts)
