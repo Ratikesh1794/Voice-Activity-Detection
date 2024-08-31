@@ -16,8 +16,6 @@ def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in {'mp3'}
 
 def perform_vad(audio_segment):
-    # Simple VAD placeholder; this needs to be replaced with an actual VAD algorithm.
-    # Here we just segment the audio into fixed intervals for demonstration purposes.
     duration_ms = len(audio_segment)
     interval = 5000  # 5 seconds
     segments = []
