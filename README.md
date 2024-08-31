@@ -1,5 +1,8 @@
 ## VAD Interface Project
 
+![image](https://github.com/user-attachments/assets/1c6f40bf-31e6-412d-8adc-de6831265226)
+
+
 **Overview**
 
 This project is a web-based application that allows users to upload MP3 audio files and perform Voice Activity Detection (VAD) on the uploaded audio. The application detects silent and non-silent segments within the audio file and displays the timestamps where voice activity occurs.
@@ -37,13 +40,17 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 **b. Install Backend Dependencies**
 
 ```bash
-pip install -r backend/requirements.txt
+cd backend
+pip install flask
+pip install flask-cors
+pip install numpy
+pip install matplotlib
+pip install pydub
 ```
 
 **c. Run the Flask Server**
 
 ```bash
-cd backend
 python app.py
 ```
 
